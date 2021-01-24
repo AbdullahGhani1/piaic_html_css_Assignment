@@ -13,18 +13,84 @@
                 <td> <a href="index.html"><h2>Home</h2></a></td> 
                 <td> <a href="about.html"><h2>About</h2></a></td> 
                 <td> <a href="portfolio.html"><h2>Portfolio</h2></a></td> 
-                <td><a href="contact.html"> <h2>Contect</h2></a></td> 
+                <td><a href="contact.html"> <h2>Contact</h2></a></td> 
             </tr>
         </table>
     </Header>
+    <div class="main">
+        <h1>Chapter # 7 - Forms</h1>
+        <form>
+        <fieldset>
+            <legend class="text">Your Details:</legend>
+            <label class="text">Name:
+                <input type="text" name="email" class="input" /></label>
+                <br/>
+                <br/>
+            <label class="text">Email:
+                <input type="text" name="mobile" class="input" /></label><br />
+                
+        </fieldset>
+        <br/>
+    
+<fieldset>
+    <legend class="text">
+        Your Review:
+    </legend>
+    <p>
+        <label for="hear-about" class="text">
+            How did you hear about us?
+        </label>
+        <select name="referrer" id="hear-about" class="text">
+            <option value="google" class="text">Google</option>
+            <option value="friend" class="text">Facebook</option>
+            <option value="advert" class="text">YoutubeAds</option>
+            <option value="other" class="text">Other</option>
+        </select>
+    </p>
+    <p class="text">
+        Would you visit again?
+        <br />
+        <label class="text">
+            <input type="radio" name="rating" value="yes" />
+            Yes
+        </label>
+        <label class="text">
+            <input type="radio" name="rating" value="no" />
+            No
+        </label>
+        <label class="text">
+            <input type="radio" name="rating" value="maybe" />
+            Maybe
+        </label>
+        </p>
+        <p class="text">
+            <label for="comments" class="text">
+                Comments:
+            </label>
+            <br />
+            <textarea rows="4" cols="40" id="comments">
+         </textarea>
+        </p>
+        <label class="text">
+            <input type="checkbox" name="subscribe" checked="checked"  />
+            Sign me up for email updates
+        </label>
+        <br />
+        <input type="submit" value="Submit review" class="text" />
+        </fieldset>
 
+        </form>
+    </div>  
+    <br>
+    <iframe  frameborder="0" scrolling="no" marginheight="0" marginwidth="0" width="100%" height="200px" 
+    src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+</iframe>
+<br>
+<br>
 <footer class="footer"  align="center" >
     <table width="100%"  height="40px" border="0"  border-collapse="collapse" cellspacing="0" cellpadding="10" bgcolor="#5b9bd5">
         <tr>
             <td>  <p>Copyright © 2019. All rights reserved.</p></td></table>
-</footer>
-        
-
-    
+</footer>  
 </body>
 </html>
