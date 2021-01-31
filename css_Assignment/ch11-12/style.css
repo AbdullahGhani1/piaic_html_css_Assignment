@@ -1,0 +1,37 @@
+.body {
+  color: rgb(7, 250, 27);
+}
+
+a {
+  text-decoration: none;
+}
+
+.main {
+  padding: 40px;
+}
+
+.heading {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 900;
+}
+
+.item__heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-shadow: 2px -1px rgba(77, 76, 76, 0.589);
+}
+
+.item__text {
+  font-size: 30px;
+  text-align: justify;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.intro:first-letter {
+  font-size: 150%;
+}
+
+.intro {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
