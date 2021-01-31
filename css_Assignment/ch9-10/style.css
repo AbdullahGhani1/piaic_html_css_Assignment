@@ -1,0 +1,357 @@
+.body {
+  color: rgb(7, 250, 27);
+}
+
+h2 {
+  text-align: center;
+}
+
+.Table__outline {
+  width: 98.5%;
+  padding: 15px 5px 15px 15px;
+  border: 1px solid black;
+}
+
+.main2 {
+  padding: 10px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.Table__outline1 {
+  margin-left: 40px;
+  margin-right: 160px;
+}
+
+.line1 {
+  display: flex;
+  text-align: center;
+}
+
+.line2 {
+  display: flex;
+  text-align: center;
+}
+
+.line3 {
+  display: flex;
+  text-align: center;
+}
+
+.line4 {
+  display: flex;
+  text-align: center;
+}
+
+.line5 {
+  display: flex;
+  text-align: center;
+}
+
+.line6 {
+  display: flex;
+  text-align: center;
+}
+
+.blockb {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  /* border: 1px solid rgb(10, 10, 10); */
+  margin: 2px;
+}
+
+.block {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: white;
+}
+
+.block:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid red;
+  margin: 2px;
+  font-size: 30px;
+  background-color: white;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #ff9966;
+}
+.block1:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #ff9966;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #dda0dd;
+}
+.block2:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #dda0dd;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block3 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #90c7ff;
+}
+.block3:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #90c7ff;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block4 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #fceff0;
+}
+.block4:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #fceff0;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block5 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #fff28e;
+}
+.block5:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #fff28e;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block6 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #cdeb8b;
+}
+.block6:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #cdeb8b;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block7 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #c79810;
+}
+.block7:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #c79810;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block8 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #ff9966;
+}
+.block8:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #ff9966;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block9 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #ebdca9;
+}
+.block9:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #ebdca9;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block10 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 1px solid rgb(10, 10, 10);
+  margin: 2px;
+  font-size: 23px;
+  background-color: #e6e6fa;
+}
+.block10:hover {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 59px;
+  border: 2px solid rgb(15, 15, 15);
+  margin: 2px;
+  font-size: 30px;
+  background-color: #e6e6fa;
+  color: rgb(5, 194, 30);
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.block_width {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 87.6%;
+  border: 1px solid red;
+  margin: 2px;
+}
+
+.block_width2 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 54.6%;
+  border: 1px solid red;
+  margin: 2px;
+}
+
+sup {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+.item1 {
+  grid-area: header;
+}
