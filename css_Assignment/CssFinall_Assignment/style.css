@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
+
 /* Default */
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 body {
   font-family: 'Roboto', sans-serif;
@@ -17,6 +19,39 @@ a {
 p {
   margin: 0.75rem 0;
 }
+li {
+  list-style-type: none;
+}
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+.text-center {
+  text-align: center;
+  padding-top: 20px;
+}
+.m-heading {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+.l-heading {
+  font-size: 4rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.1;
+}
+
+.text-primary {
+  color: #67a027;
+}
+
+.fas {
+  color: #67a027;
+}
+
 /* Social Media */
 .navbar-header {
   display: flex;
@@ -121,4 +156,90 @@ p {
   align-items: center;
   height: 100%;
   padding: 0 2rem;
+}
+/* btn */
+
+.btn {
+  display: inline-block;
+  color: #fff;
+  background: #ffd13c;
+  padding: 0.5rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #f0ba08;
+}
+
+/* Padding */
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 20px 0;
+}
+.py-3 {
+  padding: 30px 0;
+}
+
+/* Section: why us */
+#why .items {
+  display: flex;
+  padding: 1rem;
+}
+
+#why .items .item {
+  flex: 1;
+  text-align: center;
+  padding: 2rem;
+}
+
+#why .items .item i {
+  background: #dedfde;
+  padding: 2rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+/* About Info */
+
+#about {
+  background-image: url(images/contact-usjpg.jpg);
+  display: block;
+  margin: auto;
+  width: 100%;
+  color: #fff;
+}
+
+#about .info-left {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#main-footer {
+  /* Footer */
+  background: rgb(19, 163, 0);
+  color: #fff;
+}
+
+#main-footer img {
+  width: 150px;
+}
+
+#main-footer a {
+  color: #fff;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+
+.ver {
+  border-right: 3px solid rgb(100, 200, 0);
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 200px;
 }
